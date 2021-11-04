@@ -1,0 +1,128 @@
+body{
+    padding: 0;
+    margin: 0; 
+}
+header{
+background-color: black;
+color: whitesmoke;
+}
+.website-header{
+    padding: 20px;
+    height: 80px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.website-header img{
+    width: 50px;
+    height: 50px;
+    margin: 0 30px; 
+}
+.website-header h1{
+    margin: auto 0;
+    font-size: 100px;
+}
+.social-icons{
+    text-align: right;
+    flex-grow:1;
+}
+.social-icons i{
+    margin:0 7px;
+cursor:pointer;
+}
+nav{
+    background-color: #0f1321;
+    height: 50px;
+    margin-bottom: 20px;
+}
+nav ul{
+    margin: 20px 0 0 0;
+}
+.navbar-nav li{
+    padding: 10px 20px;
+}
+.navbar-nav li a{
+    color: white;
+    font-size: 20p;
+    font-weight: 800;
+}
+.navbar-nav li a:hover{
+    color: #0152bf;
+} 
+.breaking-news-section{
+    padding: 0 20px 0 20 px;
+    display: flex;
+}
+#btext{
+    width: 200px;
+    font-size: 16px;
+    text-transform: uppercase;
+    color: #be2406;
+    font-weight: 600;
+    margin: auto 0;
+}
+.breaking-news{
+    padding: 30px;
+    color: white;
+    font-weight:800;
+    display: inline-block;
+}
+.breaking-news:hover{
+    color:#0152bf;
+    cursor: pointer;
+}
+.bntime{
+    display:inline-block;
+    color:#534e3e;
+    padding: 0 10px;
+    font-size: 12px;
+}
+#popular-news{
+    display: flex;
+}
+#popular-news img{
+    width: 100%;
+    filter: brightness(0.7);
+}
+#popular-news h2{
+    margin: 0;
+    padding: 5px;
+    color: white;
+}
+#latest h2{
+    background-color: #be2406;
+}
+#ourpicks h2{
+    background-color: #0152bf;
+}
+.our-picks-text{
+    font-size: large;
+}
+.popular-news-text{
+    font-size: 14px;
+    position: absolute;
+    color: white;
+    z-index: 2;
+    bottom: 5px;
+    font-size: 24px;
+    font-weight: bolder;
+    padding: 0 10px;
+}
+#featured{
+    flex:2;
+}
+.social-links{
+    display: flex;
+    padding: 5%;
+    justify-content: space-between;
+}
+.social-links section{
+    flex-basis: 30%;
+}
+.website-header h1{
+    font-size: 15px;
+}
+.madeby{
+    background-color: black;
+    color: white;
+    padding: 1%;
+}
